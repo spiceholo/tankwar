@@ -1,0 +1,42 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: linear-gradient(to right, #00c6ff, #338625);
+  font-family: Arial, sans-serif; /* 选择一个好看的字体 */
+}
+
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #333; /* header 背景颜色 */
+  color: #fff; /* header 文字颜色 */
+}
+
+.game-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+#muteButton {
+  padding: 5px 10px;
+  background: #555; /* 静音按钮背景颜色 */
+  color: #fff; /* 静音按钮文字颜色 */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 60px); /* 减去 header 的高度 */
+}
+
+#canvasOne {
+  border: 2px solid #000; /* 为 canvas 添加边框 */
+  background: #000; /* 为 canvas 添加背景颜色 */
+}
